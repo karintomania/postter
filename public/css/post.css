@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	background-color: #F3F3F3;
+	color: #8E8E8E;
+}
+
+.header {
+	margin: 0%;
+	padding: 4px 40px;
+	background-color: #5B88FB;
+}
+
+.header h1 {
+	margin: 0px;
+	color: white;
+	font-size: 24px;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.card {
+	background-color: white;
+	border-radius: 25px;
+	width: 600px;
+	padding: 10px 16px;
+	margin: 20px 0px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content {
+	font-size: 20px;
+}
+
+.post {
+	background-color: white;
+	border-radius: 25px;
+	width: 600px;
+	padding: 10px 20px 20px;
+	margin: 20px 0px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[type=text], textarea{
+	width: 100%;
+	margin: 0;
+	padding: 8px;
+	color: #8E8E8E;
+	border-color: #AAA;
+	border-width: 1px;
+	border-radius: 3px;
+	border-style: solid;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #5B88FB;
+	border-radius: 10px;
+	border-width: 0px;
+	padding: 4px 16px;
+	margin: 16px 0 0;
+	color: #FFF;
+	font-size: 16px;
+}
+
+input[type=submit]:hover {
+	background-color: #2f67f5;
+}
